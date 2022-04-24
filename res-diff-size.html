@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolution Switching | Different Sizes | Simple Image Performance</title>
+</head>
+<body>
+
+    <img srcset="images/res-diff-size-400.jpg 480w,
+                 images/res-diff-size-800.jpg 800w"
+        sizes="(max-width: 600px) 480px,
+                800px"
+        src="images/res-diff-size-800.jpg"
+        alt="Photograph of a Field">
+    
+</body>
+</html>
